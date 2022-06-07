@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
 #- ../../base
 - ksvc.yaml
-namespace: production
+namespace: staging
