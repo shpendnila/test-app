@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: devops-toolkit-test
+  name: sample-app
 spec:
   template:
     metadata:
@@ -11,7 +11,7 @@ spec:
     spec:
       containerConcurrency: 100
       containers:
-      - image: vfarcic/devops-toolkit-series
+      - image: gcr.io/knative-samples/helloworld-go
         ports:
         - containerPort: 8080
         resources:
