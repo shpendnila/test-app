@@ -11,7 +11,7 @@ spec:
     spec:
       containerConcurrency: 100
       containers:
-      - image: gcr.io/knative-samples/helloworld-go:latest
+      - image: gcr.io/knative-samples/helloworld-go
         ports:
         - containerPort: 6000
         resources:
