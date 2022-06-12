@@ -11,7 +11,7 @@ spec:
     spec:
       containerConcurrency: 100
       containers:
-      - image: gcr.io/knative-samples/helloworld-go
+      - image: gcr.io/rubik-web-app-1540579753013/test-app
         ports:
         - containerPort: 6000
         resources:
