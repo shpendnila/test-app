@@ -6,3 +6,4 @@ ENV FLASK_APP=app.main
 EXPOSE 6000
 CMD ["python", "-m", "app.main"]
 
+
