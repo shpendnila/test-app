@@ -1,6 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ../../base
 - ksvc.yaml
+- postgres-deployment.yaml
+- postgres-svc.yaml
+- postgres-storage.yaml
+- postgress-secret.yaml
+- postgres-hpa.yaml
 namespace: production
